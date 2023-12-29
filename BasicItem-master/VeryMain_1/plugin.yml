@@ -1,0 +1,17 @@
+name: VeryMain_BasicITEM
+main: VeryMain1.Main
+version: 2.3B-RELEASE
+api-version: 1.15
+description: 기본템 지급플러그인
+
+commands:
+  test@:
+    description: 그냥 첫 플러그인 테스트하는 명령어
+  basicitem:
+    description: 기본템을 지급합니다.
+  기본템:
+    description:
+  기본템-old:
+    description:
+  basicitem-old:
+    description:

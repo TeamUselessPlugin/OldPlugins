@@ -1,0 +1,6 @@
+name: $pluginName
+version: $pluginVersion
+main: $pluginMain
+api-version: 1.17
+authors: [ Kill00 ]
+website: https://github.com/Kill00/ManageRenew

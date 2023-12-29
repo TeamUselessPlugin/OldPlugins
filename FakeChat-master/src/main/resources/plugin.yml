@@ -1,0 +1,19 @@
+name: FakeChat
+version: ${project.version}
+main: com.teamvery.fchat.main
+api-version: 1.16
+
+commands:
+  fchat:
+    description: 친구들을 채팅으로 놀릴수 있습니다
+    usage:
+    permission: fchat.use
+    permission-message: §c당신은 §7<permission>§c권한이 없습니다.
+
+permission:
+  fchat.*:
+    children:
+      fchat.use: true
+  fchat.use:
+    description: fchat 명령어 사용권한
+    default: op

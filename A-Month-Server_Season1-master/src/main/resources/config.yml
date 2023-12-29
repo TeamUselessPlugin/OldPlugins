@@ -1,0 +1,54 @@
+# 디버그 모드
+Debug: false
+
+# 디버그 유저
+DebugUsers:
+  - "FullVery"
+  - "Smooth22"
+
+# 월드보더 기본 크기
+WorldBorderMaximumSize: 10000000
+
+# 월드보더 최소 크기 (16=1청크)
+WorldBorderMinimumSize: 16
+
+# 월드보더 중앙 위치
+WorldBorderCenter:
+  X: 0
+  Y: 0
+
+# 월드보더 경고 거리(시아 테두리에 빨간색으로 물드는것)
+WorldBorderWarningDistance: 1000
+
+# 월드보더 밖에 있을때 데미지
+WorldBorderDamage: 0
+
+# 월드보더 밖에 있을때 허기 디버프
+WhenOutsideWorldBorderHunger: true
+
+# 월드보더 밖에 있을때 독 디버프
+WhenOutsideWorldBorderPoison: true
+
+# 월드보더가 줄어드는 시간 (2629800초 = 1개월)
+WorldBorderTime: 2629800
+
+# 보스바 진행바 활성화
+BossbarProgress: true
+
+# 인벤토리 세이브
+InventorySave: false
+
+# 표지판 사용 금지
+DisableSign: true
+
+# 채팅 금지
+DisableChat: true
+
+# F3 비활성화
+DisableF3: true
+
+# 팬텀 소환 활성화
+doInsomnia: false
+
+# 도전과제 표시 활성화
+EnableAnnounceAdvancement: false

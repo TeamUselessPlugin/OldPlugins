@@ -1,0 +1,32 @@
+name: $pluginName
+version: $pluginVersion
+main: $pluginMain
+api-version: 1.17
+authors: [ TeamVeryMC, kill00 ]
+description: 관리의 잡다한 기능을 추가해줍니다.
+website: https://github.com/TeamVery/Manage
+
+commands:
+  manage:
+    description: 관리 플러그인 설정 관련 명령어
+    permission: manage.set
+
+permissions:
+  manage.*:
+    description: 관리관련 펄미션
+    children:
+      manage.bypass: true
+      manage.set: true
+  manage.bypass:
+    default: op
+    children:
+      manage.bypass.blockplace: true
+      manage.bypass.blockbreak: true
+      manage.bypass.pickupitem: true
+      manage.bypass.dropitem: true
+      manage.bypass.interact: true
+      manage.bypass.movement: true
+      manage.bypass.chat: true
+      manage.bypass.inv: true
+  manage.set:
+    default: op

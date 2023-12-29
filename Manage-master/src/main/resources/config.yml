@@ -1,0 +1,58 @@
+# Placeholder Support
+# ---
+# %player% - Get Player Name
+# %n% - Line Break
+# ---
+
+# 유저가 서버에 접속했을 때 인벤토리 초기화
+초기화: false
+
+# 서버 설정
+엔티티 소환 차단: false
+날씨 비활성화: false
+시간 고정:
+  활성화: false
+  월드:
+  - sample
+  - world
+  - name
+아이템 드랍 비활성화: false
+아이템 획득 비활성화: false
+블럭 파괴금지: false
+블럭 설치금지: false
+
+플레이어 허기 비활성화: true
+플레이어 PVP 비활성화: false
+플레이어 채팅 비활성화: false
+플레이어 움직임 비활성화: false
+플레이어 상호작용 비활성화: false
+인벤토리 상호작용 비활성화: false
+플레이어 무적: false
+
+# 처음 접속했거나 재접속시 발생하는 이벤트
+첫접속:
+  입장 메시지:
+    활성화: true
+    내용: 환영합니다 %player%님!
+  폭죽: false
+  소리:
+    활성화: false
+    사운드: input
+  명령어(콘솔):
+    활성화: false
+    명령어: input
+
+재접속:
+  입장 메시지:
+    활성화: true
+    내용: 다시한번 환영합니다 %player%님!
+  폭죽: false
+  소리:
+    활성화: false
+    사운드: input
+  명령어(콘솔):
+    활성화: false
+    명령어: input
+  퇴장 메시지:
+    활성화: true
+    내용: 안녕히 가세요 %player%님!

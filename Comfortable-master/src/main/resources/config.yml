@@ -1,0 +1,5 @@
+commands:
+  gamemode:
+    success: "Set %s game mode to %s Mode"
+    other: "%s's"
+    own: "own"

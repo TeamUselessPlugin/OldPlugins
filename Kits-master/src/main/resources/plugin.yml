@@ -1,0 +1,14 @@
+name: Kits
+version: @version@
+main: com.teamvery.kits.main
+api-version: 1.16
+authors: [ TeamVery ]
+description: 기본템 지급 플러그인
+website: https://github.com/TeamVery
+
+commands:
+  기본템:
+    description: 기본템을 지급합니다.
+  기본템old:
+    description: 이전버전의 기본템을 지급합니다.
+    permission: op

@@ -1,0 +1,53 @@
+name: Guilds
+version: ${project.version}
+main: com.very.guilds.Guilds
+api-version: 1.16.3
+authors: [FullVery]
+description: Make Your Own Guilds
+
+commands:
+  길드:
+    description: 길드를 생성, 수정, 삭제, 관리할수 있는 명령어
+    permission: guilds.main
+    permission-message: §b[§fVerySV§b] §c당신은 §7<permission>§c권한이 없습니다.
+
+permissions:
+  guilds.*:
+    description: 길드관련 펄미션
+    children:
+      guilds.main: true
+      guilds.createguild: true
+      guilds.opengui.createguild: true
+      guilds.editguild: true
+      guilds.opengui.editguild: true
+      guilds.removeguild: true
+      guilds.opengui.settingsguild: true
+      guilds.main.help: true
+      guilds.manage.test: true
+  guilds.main:
+    description: 길드플러그인 기본 권한
+    default: true
+  guilds.main.help:
+    description: 길드플러그인 도움말 권한
+    default: true
+  guilds.createguild:
+    description: 길드를 생성할수 있는 권한
+    default: false
+  guild.opengui.createguild:
+    description: 길드를 GUI로 생성할수 있는 권한
+    default: false
+  guilds.editguild:
+    description: 길드를 수정할수 있는 권한
+    default: true
+  guilds.opengui.editguild:
+    description: 길드를 GUI로 수정할수 있는 권한
+    default: true
+  guilds.removeguild:
+    description: 길드를 제거할수 있는 권한
+    default: true
+  guilds.opengui.settingsguild:
+    description: 길드를 GUI로 수정할수 있는 권한
+    default: true
+  guilds.manage.test:
+    description: 길드플러그인 관리자 권한
+    default: false

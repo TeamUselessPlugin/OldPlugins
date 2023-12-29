@@ -1,0 +1,13 @@
+PVP: true
+Chat: true
+Command: true
+Hunger: true
+Movement: true
+Interact: true
+Invincibility: false
+ItemPickup: true
+ItemDrop: true
+BlockPlace: true
+BlockBreak: true
+JoinMessage: true
+QuitMessage: true
